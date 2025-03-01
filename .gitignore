@@ -1,0 +1,70 @@
+# Ignore Rider-specific files
+.idea/
+*.sln.iml
+
+# Ignore build and binary files
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.ilk
+*.idb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.ncb
+*.opendb
+*.VC.db
+
+# Ignore Rider and JetBrains-specific files
+*.DotSettings*
+.idea/
+.vscode/
+*.sln.iml
+
+# Ignore NuGet packages
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
+nuget.config
+~$*
+
+# Ignore logs and temporary files
+logs/
+*.log
+**/logs/
+**/*.log
+*.vs/
+*.DS_Store
+Thumbs.db
+
+# Ignore Test Results
+TestResults/
+coverage/
+*.coverlet/
+*.coverage
+*.coveragexml
+*.tmd
+
+# Ignore Publish Output
+publish/
+*.publishproj
+
+# Ignore Resharper and Rider files
+resharper.xml
+_ReSharper*/
+# Rider's cache folder
+.idea/
+
+# Ignore local environment configuration
+.env
+.env.*
+
+# Ignore generated files
+*.g.cs
+*.g.i.cs
+Generated_Code/
