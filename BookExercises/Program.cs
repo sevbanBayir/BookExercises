@@ -1,4 +1,4 @@
-﻿using BookExercises.week4;
+﻿
 using BookExercises.week5;
 
 namespace BookExercises
@@ -13,8 +13,11 @@ namespace BookExercises
             // Week4 week4 = new Week4();
             // week4.MaxMinNumbers();
             
-            Week5 newWeek5 = new Week5();
-            newWeek5.ConditionalStatement2();
+            // Week5 newWeek5 = new Week5();
+            // newWeek5.ConditionalStatement2();
+            
+            Homework3 numberToWords = new Homework3();
+            numberToWords.Convert(123);
         }
     }
 }

@@ -11,5 +11,6 @@
         <Folder Include="week2\"/>
         <Folder Include="week3\"/>
         <Folder Include="week4\"/>
+        <Folder Include="week5\"/>
     </ItemGroup>
 </Project>
