@@ -16,8 +16,11 @@ namespace BookExercises
             // Week5 newWeek5 = new Week5();
             // newWeek5.ConditionalStatement2();
             
-            Homework3 numberToWords = new Homework3();
-            numberToWords.Convert(123);
+            /*Homework3 numberToWords = new Homework3();
+            numberToWords.Convert(123);*/
+            
+            MatrixPrinter printer = new MatrixPrinter();
+            printer.MatrixPrinterFunc();
         }
     }
 }
