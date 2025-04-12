@@ -1,5 +1,6 @@
 ﻿
 using BookExercises.week5;
+using BookExercises.week7;
 
 namespace BookExercises
 {
@@ -19,8 +20,11 @@ namespace BookExercises
             /*Homework3 numberToWords = new Homework3();
             numberToWords.Convert(123);*/
             
-            MatrixPrinter printer = new MatrixPrinter();
-            printer.MatrixPrinterFunc();
+            // MatrixPrinter printer = new MatrixPrinter();
+            // printer.MatrixPrinterFunc();
+            
+            Homework5 a = new Homework5();
+            a.FindMaximalSequence();
         }
     }
 }
